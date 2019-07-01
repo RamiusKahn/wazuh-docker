@@ -220,6 +220,20 @@ main() {
     done
   done 
 
+  sed -i '415s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '418s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '421s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '424s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '427s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '430s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '433s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '436s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '439s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '442s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '445s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '447s/0/2/' /var/ossec/etc/internal_options.conf
+  sed -i '450s/0/2/' /var/ossec/etc/internal_options.conf
+
 }
 
 main
